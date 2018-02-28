@@ -39,6 +39,16 @@
 		8E025B212046512D00D6EB43 /* InstallmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E025B1F2046512D00D6EB43 /* InstallmentViewController.xib */; };
 		8E025B2820465AE700D6EB43 /* PayerCostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B2620465AE700D6EB43 /* PayerCostTableViewCell.swift */; };
 		8E025B2920465AE700D6EB43 /* PayerCostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E025B2720465AE700D6EB43 /* PayerCostTableViewCell.xib */; };
+		8E025B3320472B3800D6EB43 /* EquatableValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B2F20472B3800D6EB43 /* EquatableValueType.swift */; };
+		8E025B3420472B3800D6EB43 /* Spurious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3020472B3800D6EB43 /* Spurious.swift */; };
+		8E025B3520472B3800D6EB43 /* SpuriousTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3120472B3800D6EB43 /* SpuriousTestable.swift */; };
+		8E025B3620472B3800D6EB43 /* SpuriousManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3220472B3800D6EB43 /* SpuriousManager.swift */; };
+		8E025B3820472B4F00D6EB43 /* MockBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3720472B4F00D6EB43 /* MockBaseView.swift */; };
+		8E025B3A20472C1A00D6EB43 /* MockBeginPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3920472C1A00D6EB43 /* MockBeginPayment.swift */; };
+		8E025B3E20472DA700D6EB43 /* MockPaymentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3D20472DA700D6EB43 /* MockPaymentRepository.swift */; };
+		8E025B4020472F6800D6EB43 /* BeginPaymentPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E025B3F20472F6800D6EB43 /* BeginPaymentPresenterTest.swift */; };
+		8E993BB52047311500EE1001 /* PaymentMethodPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E993BB42047311500EE1001 /* PaymentMethodPresenterTest.swift */; };
+		8E993BB72047313000EE1001 /* MockPaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E993BB62047313000EE1001 /* MockPaymentMethod.swift */; };
 		94E328D72041395700137BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E328D62041395700137BDA /* AppDelegate.swift */; };
 		94E328D92041395700137BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E328D82041395700137BDA /* ViewController.swift */; };
 		94E328DC2041395700137BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E328DA2041395700137BDA /* Main.storyboard */; };
@@ -128,6 +138,16 @@
 		8E025B1F2046512D00D6EB43 /* InstallmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallmentViewController.xib; sourceTree = "<group>"; };
 		8E025B2620465AE700D6EB43 /* PayerCostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayerCostTableViewCell.swift; sourceTree = "<group>"; };
 		8E025B2720465AE700D6EB43 /* PayerCostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayerCostTableViewCell.xib; sourceTree = "<group>"; };
+		8E025B2F20472B3800D6EB43 /* EquatableValueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquatableValueType.swift; sourceTree = "<group>"; };
+		8E025B3020472B3800D6EB43 /* Spurious.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spurious.swift; sourceTree = "<group>"; };
+		8E025B3120472B3800D6EB43 /* SpuriousTestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpuriousTestable.swift; sourceTree = "<group>"; };
+		8E025B3220472B3800D6EB43 /* SpuriousManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpuriousManager.swift; sourceTree = "<group>"; };
+		8E025B3720472B4F00D6EB43 /* MockBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBaseView.swift; sourceTree = "<group>"; };
+		8E025B3920472C1A00D6EB43 /* MockBeginPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBeginPayment.swift; sourceTree = "<group>"; };
+		8E025B3D20472DA700D6EB43 /* MockPaymentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPaymentRepository.swift; sourceTree = "<group>"; };
+		8E025B3F20472F6800D6EB43 /* BeginPaymentPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginPaymentPresenterTest.swift; sourceTree = "<group>"; };
+		8E993BB42047311500EE1001 /* PaymentMethodPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodPresenterTest.swift; sourceTree = "<group>"; };
+		8E993BB62047313000EE1001 /* MockPaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPaymentMethod.swift; sourceTree = "<group>"; };
 		94E328D32041395700137BDA /* PaymentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E328D62041395700137BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94E328D82041395700137BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -247,6 +267,54 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
+		8E025B2A20472B1F00D6EB43 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8E025B2B20472B1F00D6EB43 /* Payment */,
+				8E025B2C20472B1F00D6EB43 /* Base */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8E025B2B20472B1F00D6EB43 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				8E025B3920472C1A00D6EB43 /* MockBeginPayment.swift */,
+				8E025B3D20472DA700D6EB43 /* MockPaymentRepository.swift */,
+				8E025B3F20472F6800D6EB43 /* BeginPaymentPresenterTest.swift */,
+				8E993BB42047311500EE1001 /* PaymentMethodPresenterTest.swift */,
+				8E993BB62047313000EE1001 /* MockPaymentMethod.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		8E025B2C20472B1F00D6EB43 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8E025B3720472B4F00D6EB43 /* MockBaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8E025B2D20472B3800D6EB43 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E025B2E20472B3800D6EB43 /* Spurious */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8E025B2E20472B3800D6EB43 /* Spurious */ = {
+			isa = PBXGroup;
+			children = (
+				8E025B2F20472B3800D6EB43 /* EquatableValueType.swift */,
+				8E025B3020472B3800D6EB43 /* Spurious.swift */,
+				8E025B3120472B3800D6EB43 /* SpuriousTestable.swift */,
+				8E025B3220472B3800D6EB43 /* SpuriousManager.swift */,
+			);
+			path = Spurious;
+			sourceTree = "<group>";
+		};
 		94E328CA2041395700137BDA = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +356,8 @@
 		94E328EA2041395700137BDA /* PaymentAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				8E025B2D20472B3800D6EB43 /* Utils */,
+				8E025B2A20472B1F00D6EB43 /* Source */,
 				94E328EB2041395700137BDA /* PaymentAppTests.swift */,
 				94E328ED2041395700137BDA /* Info.plist */,
 			);
@@ -1009,7 +1079,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E025B3320472B3800D6EB43 /* EquatableValueType.swift in Sources */,
+				8E025B3420472B3800D6EB43 /* Spurious.swift in Sources */,
+				8E025B4020472F6800D6EB43 /* BeginPaymentPresenterTest.swift in Sources */,
 				94E328EC2041395700137BDA /* PaymentAppTests.swift in Sources */,
+				8E993BB52047311500EE1001 /* PaymentMethodPresenterTest.swift in Sources */,
+				8E025B3820472B4F00D6EB43 /* MockBaseView.swift in Sources */,
+				8E025B3520472B3800D6EB43 /* SpuriousTestable.swift in Sources */,
+				8E025B3620472B3800D6EB43 /* SpuriousManager.swift in Sources */,
+				8E993BB72047313000EE1001 /* MockPaymentMethod.swift in Sources */,
+				8E025B3E20472DA700D6EB43 /* MockPaymentRepository.swift in Sources */,
+				8E025B3A20472C1A00D6EB43 /* MockBeginPayment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
